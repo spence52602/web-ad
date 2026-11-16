@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'Inter';
+	src: url(../fonts/InterVariable.woff2) format('woff2');
+	font-weight: 100 900;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.frame {
+	width: 970px;
+	height: 250px;
+	border: solid 1px gray;
+	background: #f5f5f7;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.text {
+	margin-left: 64px;
+	display: flex;
+	flex-direction: column;
+}
+
+.name {
+	font-family: 'Inter';
+	font-size: 44px;
+	font-weight: 600;
+	letter-spacing: -1px;
+	color: #1d1d1f;
+}
+
+.tagline {
+	font-family: 'Inter';
+	font-size: 20px;
+	font-weight: 300;
+	color: #6e6e73;
+	margin-top: 10px;
+}
+
+.button {
+	font-family: 'Inter';
+	font-size: 15px;
+	font-weight: 400;
+	color: white;
+	background: #1d1d1f;
+	width: 96px;
+	line-height: 24px;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	border-radius: 22px;
+	text-decoration: none;
+	margin-top: 28px;
+	transition: 0.4s;
+}
+
+.button:hover {
+	font-weight: 750;
+	background: #0071e3;
+	transition: 0.4s;
+}
+
+.phone {
+	height: 230px;
+	position: absolute;
+	right: 40px;
+	top: 10px;
+}
